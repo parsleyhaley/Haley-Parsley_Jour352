@@ -1,0 +1,51 @@
+/*
+MY COLOR PALETTE
+Color 1 - #F2EB87
+Color 2 - #D43545
+Color 3 - #29339B
+Color 4 - #3CAC8E
+Color 5 - #CBCCE2
+*/
+
+body {
+    background-color: #cbcce2;
+    text-align: center;
+}
+
+button {
+    background-color: #f2eb87;
+    color: #29339b;
+    font-family: "unica one", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    width: 400px;
+    padding: 17x;
+    margin-top: 20px;
+    border: none;
+    border-radius: 82px;
+}
+
+button:hover {
+    background-color: #29339b;
+    color: #f2eb87;
+}
+h1 {
+    font-family: "unica one";
+    text-transform: uppercase;
+    color: #3cac8e;
+    font-size: 60px;
+}
+.unica-one-regular {
+    font-family: "Unica One";
+}
+
+.crimson-text-regular {
+    font-family: "Crimson Text";
+}
+
+h2 {
+    font-family: "crimson text";
+    font-size: 30px;
+}
