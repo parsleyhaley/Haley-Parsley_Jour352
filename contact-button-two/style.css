@@ -8,16 +8,15 @@ Color 5 - #CBCCE2
 */
 
 body {
-    background-color: #cbcce2;
+    background-color: ##f5f3e9;
     text-align: center;
 }
 
 button {
-    background-color: #f2eb87;
-    color: #29339b;
-    font-family: "unica one", sans-serif;
+    background-color: #3cac8e;
+    color: #f2eb87;
+    font-family: "roboto", sans-serif;
     font-size: 30px;
-    text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 300;
     width: 400px;
@@ -28,12 +27,12 @@ button {
 }
 
 button:hover {
-    background-color: #29339b;
-    color: #f2eb87;
+    background-color: #f2eb87;
+    color: #3cac8e;
 }
 h1 {
-    font-family: "unica one";
-    text-transform: uppercase;
+    font-family: "Roboto";
+
     color: #3cac8e;
     font-size: 60px;
 }
@@ -46,6 +45,8 @@ h1 {
 }
 
 h2 {
-    font-family: "crimson text";
+    font-family: "lora";
+    color: #3cac8e;
     font-size: 30px;
+    text-transform: uppercase;
 }

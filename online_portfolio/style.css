@@ -1,0 +1,39 @@
+h1 {
+    color: #211b1a;
+    font-family: "League Spartan", serif;
+    font-size: 49px;
+}
+
+h2 {
+    color: #211b1a;
+    font-family: "Playfair Display", serif;
+    font-size: 21px;
+    margin-top: -14px;
+}
+
+button {
+    color: #211b1a;
+    background-color: #e9f2f5;
+    font-family: "League Spartan", serif;
+        margin-top: -1px;
+    padding:10px;
+    margin-bottom: 11px;
+      border-radius: 40%;
+    width: 139px;
+    border:1px solid;
+    border-color: black;
+
+
+}
+
+img {
+    width: 100%;
+      border-radius: 50%;
+    border:thin;
+    border-color: black;
+
+}
+
+body {
+    background-color: antiquewhite;
+}
