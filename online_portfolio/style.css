@@ -1,7 +1,20 @@
+/*
+* MY COLOR PALETTE
+* #e6b894
+* #d3f4ff 
+* #211b1a
+*MY FONTS
+*"Playfair Display", serif;
+*"League Spartan", serif;
+
+*/
+
 h1 {
     color: #211b1a;
     font-family: "League Spartan", serif;
     font-size: 49px;
+    margin: 50px 0px 0px 50px;
+    text-align:right;
 }
 
 h2 {
@@ -9,6 +22,8 @@ h2 {
     font-family: "Playfair Display", serif;
     font-size: 21px;
     margin-top: -14px;
+    text-align: right;
+    
 }
 
 button {
@@ -23,7 +38,6 @@ button {
     border:1px solid;
     border-color: black;
 
-
 }
 
 img {
@@ -31,9 +45,29 @@ img {
       border-radius: 50%;
     border:thin;
     border-color: black;
+    text-align:center; 
+    margin:50px auto; 
+    display:block;
 
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: #e6b894;
+}
+
+#topper {
+    background-color: #e6b894
+}
+
+#navigation {
+    background-color:#211b1a;
+    color:#d3f4ff;
+    font-family: "League Spartan", serif;
+
+}
+
+@media {
+    h1 {
+        color:  #211b1a
+    }
 }
