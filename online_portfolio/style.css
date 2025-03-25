@@ -9,65 +9,106 @@
 
 */
 
-h1 {
-    color: #211b1a;
-    font-family: "League Spartan", serif;
-    font-size: 49px;
-    margin: 50px 0px 0px 50px;
-    text-align:right;
-}
+@media screen {
+    #topper {
+        background-color: #e6b894;
+    }
 
-h2 {
-    color: #211b1a;
-    font-family: "Playfair Display", serif;
-    font-size: 21px;
-    margin-top: -14px;
-    text-align: right;
-    
-}
+    img {
+        width: 100%;
+        display: block;
+        border-radius: 100%;
+        border: 1px solid;
+        margin: 20px 20px 20px 20px;
+    }
 
-button {
-    color: #211b1a;
-    background-color: #e9f2f5;
-    font-family: "League Spartan", serif;
-        margin-top: -1px;
-    padding:10px;
-    margin-bottom: 11px;
-      border-radius: 40%;
-    width: 139px;
-    border:1px solid;
-    border-color: black;
-
-}
-
-img {
-    width: 100%;
-      border-radius: 50%;
-    border:thin;
-    border-color: black;
-    text-align:center; 
-    margin:50px auto; 
-    display:block;
-
-}
-
-body {
-    background-color: #e6b894;
-}
-
-#topper {
-    background-color: #e6b894
-}
-
-#navigation {
-    background-color:#211b1a;
-    color:#d3f4ff;
-    font-family: "League Spartan", serif;
-
-}
-
-@media {
     h1 {
-        color:  #211b1a
+        font-family: "League Spartan", serif;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 96px auto 50px auto;
+        padding: 0px 0px 0px 40px;
+    }
+
+    h2 {
+        color: #211b1a;
+        font-family: "Playfair Display", serif;
+        font-size: 25px;
+        padding: 0px 0px 0px 40px;
+        margin: -53px 0px 20px 0px;
+    }
+
+    button {
+        color: #211b1a;
+        background-color: #d3f4ff;
+        font-family: "League Spartan", serif;
+        font-size: 20px;
+        border-radius: 32px;
+        width: 200px;
+        border: 1px solid;
+        border-color: black;
+        margin: 0px 0px 0px 40px;
+        font-weight: bold;
+        padding: 10px 0px 10px 0px;
+    }
+
+    #navigation {
+        background-color: #211b1a;
+        color: #d3f4ff;
+        font-family: "League Spartan", serif;
+        margin: 0px 0px 0px 0px;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 15px;
+        color: #d3f4ff;
+    }
+
+    .headers {
+        font-family: "League Spartan", serif;
+        background-color: #211b1a;
+        color: #d3f4ff;
+        font-size: 43px;
+        font-weight: bold;
+        padding: 0px 0px 0px 20px;
+    }
+
+    .background {
+        background-color: #e6b894;
+        color: #211b1a;
+    }
+
+    h4 {
+        font-family: "League Spartan", serif;
+        font-size: 25px;
+        margin: 15px 10px 15px 10px;
+    }
+
+    .jobdescription {
+        font-family: "Playfair Display", serif;
+        margin: -14px 10px 15px 10px;
+    }
+
+    #skills {
+        font-family: "League Spartan", serif;
+        font-size: 25px;
+        margin: 15px 0px 10px 0px;
+    }
+    .majors {
+        font-family: "Playfair Display", serif;
+        margin: 0px 0px 0px 0px;
+        margin: -14px 10px 15px 10px;
+    }
+
+    .date {
+        text-align: right;
+    }
+
+    @media (min-width: 576px) {
+        h1 {
+            font-size: 50px;
+        }
     }
 }

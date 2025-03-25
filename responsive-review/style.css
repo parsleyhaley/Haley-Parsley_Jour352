@@ -1,0 +1,27 @@
+
+@media screen {
+    
+    
+
+
+h1{ 
+    font-family: 'Times New Roman'; 
+}
+
+p {
+    color:red
+}
+
+.caption {
+    color:green
+}
+}
+
+@media (min-width 576px) {
+    h1{
+        font-size: 200px;
+        
+        
+    }
+    
+}
