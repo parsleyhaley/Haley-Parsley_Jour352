@@ -18,8 +18,8 @@ p {
 }
 
 @media (min-width 576px) {
-    h1{
-        font-size: 200px;
+    #info{
+        width:700px
         
         
     }

@@ -1,0 +1,35 @@
+@media screen {
+    img {
+        width: 300px;
+    }
+
+    body {
+        font-family: arial, sans-serif;
+    }
+
+    #link-text {
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+    }
+
+    #link-text:hover {
+        color: red;
+    }
+
+    #info {
+        width: 700px;
+        margin: auto;
+    }
+
+    #headshot {
+        float: left;
+        margin: 0px 37px 74px 0px;
+    }
+}
+@media (min-width 576px) {
+    
+    #info
+    }
+    
+}
